@@ -1,57 +1,77 @@
 
 body{
-  width:755px;
-   
+  background-color: #9a9a9a;
 }
-section{
-   
-   
+.container {
+  margin: 0 auto;
+  background-color: #fff;
+   width: 80%;
+  height: 5000px;
+}
+section{ 
+   width: 100%;
+
 }
 #section1{
    margin:0;
+   position:relative;
 }
-#circle1{
-   width:560;
-   height:560;
+#section1 div#circle1{
+	position: absolute;
+   width:560!important;
+   height:560!important;
+   top:0;
+   left: 0;
    background-color:rgb(145,170,89);
    color:white;
    border-radius:0 0 100% 0;
+   border-bottom: 30px solid rgb(145,170,89);
    padding:50px 80px;
 }
-#circle1 div{
+#info{
    text-align:left;
-
+   margin-top: -55px;
+   margin-left: -25px;
+   width: 550px;
 }
-#circle1 div h1{
-   font-size:60px;
+#info h1{
+   font-size:55px;
    text-transform:uppercase;
    font-weight:100;
+   margin-bottom: 0;
 } 
-#circle1 div p{
+#info p{
    font-size:20px;
+      margin-top:0;
 }
-#circle1 div button{
+#btn-order{
    font-size:27px;
    background-color:transparent;
    border-radius:40px;
    color:white;
-   border:4px solid white;
-   padding:10px 50px;
-   margin-top:40px;
+   border:3px solid white;
+   padding:10px 30px;
+   margin-top:0;
 }
-#section1 img{
+
+#section1 #photo1{
    position:absolute;
    top:40px;
-   left:260px;
-
+   right:0;
+   width: 650px;
+   height: 650px;
+    background-image: url('../images/photo1.png');
+    background-clip: cover;
+    background-repeat: no-repeat;
+    background-position: center center;	
 }
-#phone{
+#phone1{
    position:absolute;
    top:30px;
-   left:750px;
+   left:670px;
    color:black;
    font-weight:600;
-   
+   width:160px;
 }
 #c1{
    position:absolute;
@@ -77,11 +97,7 @@ section{
    
 
 }
-.container{
-   width:80%;
-   margin-left:10%;
-   margin-right:10%;  
-}
+
 h2{
    font-size:30px;
    font-weight:600;
