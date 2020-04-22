@@ -29,7 +29,7 @@ section{
    color:white;
   border-radius: 0 0 100% 0;
 border-bottom: 34px solid rgb(145,170,89);
-padding: 50px 80px;
+padding: 50px 100px;
 margin-right: 25%;
 }
 #info{
@@ -82,7 +82,8 @@ section h2::after {
     background-image: url('../images/photo1.png');
     background-clip: cover;
     background-repeat: no-repeat;
-    background-position: center center;	
+    background-position: center center;
+    	
 }
 #phone1{
    position:absolute;

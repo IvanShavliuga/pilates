@@ -1,2 +1,2 @@
-require('./css/style.css')
+require('./css/style.less')
 require('./photo1.png')
