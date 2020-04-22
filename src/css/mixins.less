@@ -1,0 +1,28 @@
+.position(@mode,@direct,@x,@y,@width,@height,@zindex){
+  position:@mode;
+  top:@y;
+  & when (@direct = left) {left:@x;}
+  & when (@direct = right)  {right:@x;} 
+  & when not (@zindex = none) {
+    z-index:@zindex;
+  } 
+  width: @width;
+  height: @height;
+}
+.background(@mode,@background,@image,@radius) {
+  & when not (@mode = none) {
+    background-clip: @mode;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  & when not (@background = none) {
+    background-color:@background;
+  } 
+  & when not (@image = none) {
+    background-image:url(@image);
+  } 
+  & when not (@radius = none) {
+    border-radius:@radius;
+  } 
+  
+}
