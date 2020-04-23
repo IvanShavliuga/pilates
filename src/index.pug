@@ -1,16 +1,20 @@
 doctype html
 html(lang='en')
   head
-    title Ivan Shavliuga (Ivanov)_resume
+    title Pilates studio
     meta(charset='UTF-8')
     meta(name="Author" content="Ivan Shavluga")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href='https://fonts.googleapis.com/css?family=Khula:400', rel='stylesheet')
     link(href="https://fonts.googleapis.com/css?family=Raleway", rel="stylesheet")
-
+    script(src="https://maps.googleapis.com/maps/api/js")
+    script
+      include js/jquery-1.11.3.min.js
+      include js/script.js
   body
     .container
       include header
       include about
       include cost
       include lessons
+      include comments										
