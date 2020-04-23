@@ -104,7 +104,7 @@ p{
  block about
 ****************************************************/
 .about {
-  height: 300px;
+  height: 450px;
   position: relative;
   margin-top: 100px;
   &__link {
@@ -116,22 +116,22 @@ p{
     }
   }
   &__circle1{
-    .position(absolute,left,56%,30%,303px,303px,10);
+    .position(absolute,left,56%,19%,303px,303px,10);
     .background(contain,none,'../images/photo2.png',50%);
   }
   &__circle2{
-    .position(absolute,left,50%,90%,156px,156px,20);
+    .position(absolute,left,50%,56%,156px,156px,20);
     .background(none,none,'../images/photo3.png',50%);
   }
 }
 
 /****************************************************
- block cost
+ block orders
 ****************************************************/
 
 section.orders {
-  margin:0;
-  padding:150px 70px;
+  margin:0 70px;
+  padding:0;
   position: static;
   div{
     width:250px;
@@ -191,6 +191,81 @@ section.orders {
   }
 }
 
+/****************************************************
+ block lessons
+****************************************************/
+
+section.lessons {
+  margin:80px 70px 0 70px;
+  padding:0;
+  position: static;
+  &__box {
+  
+  }
+  .item {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start; 
+    position:relative;
+    height:400px;
+    &__info {
+      width:440px;
+      
+    }
+    &:nth-child(2n+1) {
+      flex-direction:row-reverse;    
+    }
+    &__image {
+      width:240px;
+      position:relative;
+      
+      &__circle1 {
+        .position(absolute,left,80px,80px,160px,160px,10);
+        .background(none,@lessons__circle,none,50%);
+      }
+      &__photo1 {
+        .position(absolute,left,35px,-40px,260px,360px,30);
+        .background(cover,none,'../images/photo4.png',none);
+      }
+      &__images1 {
+        .position(absolute,left,140px,40px,160px,160px,20);
+        .background(cover,none,'../images/circles.png',50%);
+      }
+      
+      &__circle2 {
+        .position(absolute,left,-50px,40px,230px,230px,10);
+        .background(none,@lessons__circle,none,50%);
+      }
+      &__photo2 {
+        .position(absolute,left,-45px,-40px,260px,360px,30);
+        .background(cover,none,'../images/photo5.png',none);
+      }
+      
+      &__circle3 {
+        .position(absolute,left,75px,-15px,160px,160px,10);
+        .background(none,@lessons__circle,none,50%);
+      }
+      &__photo3 {
+        .position(absolute,left,-35px,-40px,360px,360px,30);
+        .background(cover,none,'../images/photo6.png',none);
+      }
+      &__images2 {
+        .position(absolute,left,10px,-20px,160px,160px,20);
+        .background(cover,none,'../images/circles.png',50%);
+      }
+      
+      &__circle4 {
+        .position(absolute,left,-80px,-10px,230px,230px,10);
+        .background(none,@lessons__circle,none,50%);
+      }
+      &__photo4 {
+        .position(absolute,left,-125px,-50px,400px,300px,30);
+        .background(cover,none,'../images/photo7.png',none);
+      }
+    } 
+  }
+}
 
 /*
 #c5{
