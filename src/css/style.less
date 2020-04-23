@@ -3,7 +3,7 @@
 /****************************************************
  global bloks
 ****************************************************/
-body{
+html,body{
   background-color: @body__background;
   padding:0;
   margin:0;
@@ -12,8 +12,8 @@ body{
   margin: 0 auto;
   background-color: @body__container;
   width: 80%;
-  height: 5000px;
   position: static;
+  padding:0;
 }
 /*section{ 
   width: 100%;
@@ -341,85 +341,36 @@ section.lessons {
     }
   }
 }
-
-/*
-
-#comments{
-   margin-left:80px;
-   
+.map {
+  margin:120px 100px 97px 70px;
+  padding: 0 70px 40px 70px;
+  height:800px;
+  &__contacts {
+    background-color:@map__contacts;   
+    width:340px;
+    height:270px;
+    border:none;
+    color:@map__color;
+    position:relative;
+    z-index:30;
+    top:-750px;
+    padding:20px 20px;
+    margin:0;
+  }
+  
 }
-#prev{
-   
-   
-   top:3550px;
-   left:100px;
+.footer {
+  background-color:@footer__background;   
+  
+  width:100%;
+  color:@footer__color;
+  font-size:40px;
+  text-align:center;
+  bottom:0;
+  padding: 40px 0px;
+  margin-bottom:0!important;
+  p {
+    font-size:15px;
+    width:100%;  
+  }
 }
-#next{
-   color:rgb(105,130,49);
-   border:none;
-   background-color:transparent;
-   font-size:80px;
-   position:absolute;
-   top:3550px;
-   right:100px;
-}
-#com{
-   border: 1px solid rgb(105,130,49);
-   width:630px;
-   margin-left:10px;
-   margin-bottom:10px;
-   padding:10px 10px;
-}
-#comimg{
-   float:left;
-   margin-top:20px;
-}
-#com p{
-   width:600px;
-   text-align:justify;
-}
-#com h3{
-   text-align:left;
-   font-size:30px;
-   margin:5px;
-   
-}
-#comments{
-   text-align:center;
-}
-.page{
-   background-color:transparent;
-   border-radius:50%;
-   border:1px solid rgb(105,130,49);
-   padding:0 6px;
-}
-.active{
-   background-color:rgb(105,130,49);
-   
-}
-#sectionl{
-   margin-bottom:0;
-   padding-bottom:0;
-}
-#contacts{
-   background-color:rgb(105,130,49);   
-   width:340px;
-   height:270px;
-   border:none;
-   color:white;
-   position:relative;
-   z-index:30;
-   top:-750px;
-   padding:20px 20px;
-   margin:0;
-}
-#footer{
-   background-color:rgb(105,130,49);   
-   margin-top:-310px;
-   margin-bottom:0;
-   width:800px;
-   color:white;
-   font-size:40px;
-   text-align:center;
-   padding:40px 120px;
-}*/
