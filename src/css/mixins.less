@@ -2,10 +2,10 @@
   position:@mode;
   top:@y;
   & when (@direct = left) {left:@x;}
-  & when (@direct = right)  {right:@x;} 
+  & when (@direct = right)  {right:@x;}
   & when not (@zindex = none) {
     z-index:@zindex;
-  } 
+  }
   width: @width;
   height: @height;
 }
@@ -17,14 +17,13 @@
   }
   & when not (@background = none) {
     background-color:@background;
-  } 
+  }
   & when not (@image = none) {
     background-image:url(@image);
-  } 
+  }
   & when not (@radius = none) {
     border-radius:@radius;
-  } 
-  
+  }
 }
 .button(@fontsize, @padding, @color) {
   font-size:@fontsize;

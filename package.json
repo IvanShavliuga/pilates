@@ -2,8 +2,8 @@
   "name": "pilates",
   "version": "2.5.0",
   "description": "Studio Pilates",
-  "author":"Ivan Shavliuga (Ivanov)",
-  "mail":"iva.drakon.nov@gmail.com",
+  "author": "Ivan Shavliuga (Ivanov)",
+  "mail": "iva.drakon.nov@gmail.com",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot"
@@ -16,12 +16,12 @@
   ],
   "license": "MIT",
   "dependencies": {
-  	 "babel-polyfill": "^6.13.0",
+    "babel-polyfill": "^6.13.0",
     "babel-runtime": "^6.0.0",
     "lodash": "^4.17.4",
     "vue": "^2.5.13",
     "vuex": "^3.0.1"
-    },
+  },
   "devDependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.25.0",
