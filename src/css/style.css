@@ -3,13 +3,13 @@ body{
   background-color: #9a9a9a;
 }
 .container {
-  margin: 0 auto;
+  margin: 0;
   background-color: #fff;
-   width: 80%;
+   width: 100%;
   height: 5000px;
   position: static;
 }
-section{ 
+section{
    width: 100%;
 }
 .wrapper {
@@ -43,7 +43,7 @@ margin-right: 25%;
    text-transform:uppercase;
    font-weight:100;
    margin-bottom: 0;
-} 
+}
 #info p{
    font-size:20px;
       margin-top:0;
@@ -83,7 +83,7 @@ section h2::after {
     background-clip: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    	
+
 }
 #phone1{
    position:absolute;
@@ -109,9 +109,9 @@ section h2::after {
    width:80px;
    height:80px;
    background-color:rgb(205,230,149);
-   border-radius:50%;	
-  
-   
+   border-radius:50%;
+
+
 }
 #c3{
    position:absolute;
@@ -154,7 +154,7 @@ p{
 p a{
    color:rgb(105,130,49);
    text-decoration:none;
-   text-transform:uppercase;   
+   text-transform:uppercase;
 }
 p a span{
    padding-left:15px;
@@ -174,7 +174,7 @@ p a span{
 #orders div{
    width:250px;
    margin-right:10px;
-   
+
 }
 #order1{
    background-color:rgb(215,240,159);
@@ -222,7 +222,7 @@ h4{
    border:3px solid white;
    padding:5px 30px;
    margin-top:30px;
-   margin-bottom:50px; 
+   margin-bottom:50px;
 }
 /*#section2{
    padding:0;
@@ -313,7 +313,7 @@ h4{
 
 #comments{
    margin-left:80px;
-   
+
 }
 #prev{
    color:rgb(105,130,49);
@@ -352,7 +352,7 @@ h4{
    text-align:left;
    font-size:30px;
    margin:5px;
-   
+
 }
 #comments{
    text-align:center;
@@ -365,14 +365,14 @@ h4{
 }
 .active{
    background-color:rgb(105,130,49);
-   
+
 }
 #sectionl{
    margin-bottom:0;
    padding-bottom:0;
 }
 #contacts{
-   background-color:rgb(105,130,49);   
+   background-color:rgb(105,130,49);
    width:340px;
    height:270px;
    border:none;
@@ -384,7 +384,7 @@ h4{
    margin:0;
 }
 #footer{
-   background-color:rgb(105,130,49);   
+   background-color:rgb(105,130,49);
    margin-top:-310px;
    margin-bottom:0;
    width:800px;

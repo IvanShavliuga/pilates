@@ -9,18 +9,18 @@ html,body{
   margin:0;
 }
 .container {
-  margin: 0 auto;
+  margin: 0;
   background-color: @body__container;
-  width: 80%;
+  width: 100%;
   position: static;
   padding:0;
 }
-/*section{ 
+/*section{
   width: 100%;
 }*/
 .wrapper {
   margin: 10px auto;
-  width: 85%;
+  width: 95%;
   position: static;
 }
 section h2 {
@@ -71,7 +71,7 @@ p{
       text-transform:uppercase;
       font-weight:100;
       margin-bottom: 0;
-    } 
+    }
     &__desc {
       font-size:20px;
       margin-top:0;
@@ -79,11 +79,11 @@ p{
     &__button {
       .button(27px, 10px 30px, @header__logo__button);
       margin-top:0;
-    }    
-  }  
+    }
+  }
   &__photo{
     .position(absolute,right,0,40px,650px,650px,20);
-    .background(cover,none,'../images/photo1.png',none);	
+    .background(cover,none,'../images/photo1.png',none);
   }
   &__phone{
     font-weight:bold;
@@ -106,6 +106,7 @@ p{
 .about {
   height: 450px;
   position: relative;
+  margin:80px 70px 0 70px;
   margin-top: 100px;
   &__link {
     color:@about__link;
@@ -130,19 +131,17 @@ p{
 ****************************************************/
 
 section.orders {
-  margin:0 70px;
+  margin:80px 70px 0 70px;
   padding:0;
   position: static;
-  div{
-    width:250px;
-    margin-right:10px; 
-  }
   .order {
     display:flex;
     justify-content:space-around;
     width:800px;
-    padding:0; 
+    padding:0;
     &__item {
+      width:250px;
+      margin-right:10px;
       &:first-child{
         background-color:@orders__item__background1;
       }
@@ -152,7 +151,7 @@ section.orders {
       &:last-child{
         background-color:@orders__item__background3;
       }
-      
+
     }
     &__numbers {
       position:relative;
@@ -185,7 +184,7 @@ section.orders {
       &__button {
         .button(20px, 5px 30px, @orders__button);
         margin-top:30px;
-        margin-bottom:50px; 
+        margin-bottom:50px;
       }
     }
   }
@@ -203,64 +202,37 @@ section.lessons {
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-    justify-content:flex-start; 
-    position:relative;
-    height:400px;
+    justify-content:space-around;
+    height:600px;
     &__info {
       width:440px;
-      
+      margin: auto 0;
     }
     &:nth-child(2n+1) {
-      flex-direction:row-reverse;    
+      flex-direction:row-reverse;
     }
     &__image {
-      width:240px;
-      position:relative;
-      
-      &__circle1 {
-        .position(absolute,left,80px,80px,160px,160px,10);
-        .background(none,@lessons__circle,none,50%);
-      }
       &__photo1 {
-        .position(absolute,left,35px,-40px,260px,360px,30);
-        .background(cover,none,'../images/photo4.png',none);
-      }
-      &__images1 {
-        .position(absolute,left,140px,40px,160px,160px,20);
-        .background(cover,none,'../images/circles.png',50%);
-      }
-      
-      &__circle2 {
-        .position(absolute,left,-50px,40px,230px,230px,10);
-        .background(none,@lessons__circle,none,50%);
+        width: 523px;
+        height: 548px;
+        .background(100%,none,'../images/desktop/photo1.png',none);
       }
       &__photo2 {
-        .position(absolute,left,-45px,-40px,260px,360px,30);
-        .background(cover,none,'../images/photo5.png',none);
-      }
-      
-      &__circle3 {
-        .position(absolute,left,75px,-15px,160px,160px,10);
-        .background(none,@lessons__circle,none,50%);
+        width: 462px;
+        height: 650px;
+        .background(100%,none,'../images/desktop/photo2.png',none);
       }
       &__photo3 {
-        .position(absolute,left,-35px,-40px,360px,360px,30);
-        .background(cover,none,'../images/photo6.png',none);
-      }
-      &__images2 {
-        .position(absolute,left,150px,-30px,160px,160px,20);
-        .background(cover,none,'../images/circles.png',50%);
-      }
-      
-      &__circle4 {
-        .position(absolute,left,-80px,-10px,230px,230px,10);
-        .background(none,@lessons__circle,none,50%);
+        width: 523px;
+        height: 548px;
+        .background(100%,none,'../images/desktop/photo3.png',none);
       }
       &__photo4 {
-        .position(absolute,left,-125px,-50px,400px,300px,30);
-        .background(cover,none,'../images/photo7.png',none);
+        width: 671px;
+        height: 482px;
+        .background(100%,none,'../images/desktop/photo4.png',none);
       }
-    } 
+    }
   }
 }
 
@@ -279,8 +251,8 @@ section.lessons {
       font-size:80px;
       position:absolute;
       color:@comments__button;
-      
-      
+
+
     }
     button#prev {
       top:40px;
@@ -288,7 +260,7 @@ section.lessons {
     }
     button#next {
       top:40px;
-      right:-45px;      
+      right:-45px;
     }
     &__item {
       border: 1px solid @comments__border;
@@ -302,7 +274,7 @@ section.lessons {
       margin-top:20px;
       margin-right:60px;
       width:120px;
-      height:120px;       
+      height:120px;
     }
     #comimg1  {
       .background(contain,none,'../images/test-1.png',50%);
@@ -313,18 +285,18 @@ section.lessons {
     #comimg3  {
       .background(contain,none,'../images/test-3.png',50%);
     }
-    &__page {      
+    &__page {
       width:150px;
       margin:0 auto;
       span {
-                
+
         display:inline-block;
         background-color:transparent;
         border-radius:50%;
         border:1px solid @comments__button;
         padding:0 6px;
         margin-left:15px;
-        
+
       }
       span.active {
         background-color:@comments__button;
@@ -346,7 +318,7 @@ section.lessons {
   padding: 0 70px 40px 70px;
   height:800px;
   &__contacts {
-    background-color:@map__contacts;   
+    background-color:@map__contacts;
     width:340px;
     height:270px;
     border:none;
@@ -357,11 +329,11 @@ section.lessons {
     padding:20px 20px;
     margin:0;
   }
-  
+
 }
 .footer {
-  background-color:@footer__background;   
-  
+  background-color:@footer__background;
+
   width:100%;
   color:@footer__color;
   font-size:40px;
@@ -371,6 +343,6 @@ section.lessons {
   margin-bottom:0!important;
   p {
     font-size:15px;
-    width:100%;  
+    width:100%;
   }
 }
