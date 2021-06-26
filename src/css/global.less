@@ -1,0 +1,41 @@
+html,body{
+  background-color: @body__background;
+  padding:0;
+  margin:0;
+}
+.container {
+  margin: 0;
+  background-color: @body__container;
+  width: 100%;
+  position: static;
+  padding:0;
+}
+/*section{
+  width: 100%;
+}*/
+.wrapper {
+  margin: 10px auto;
+  width: 95%;
+  position: static;
+}
+section h2 {
+  position: relative;
+  margin-left: 35px;
+  width:90%;
+  font-size:30px;
+  font-weight:bold;
+  &::after {
+    content: ' ';
+    position: absolute;
+    width:25px;
+    height:10px;
+    border-top:2px solid black;
+    top:15px;
+    left:-35px;
+  }
+}
+
+p{
+   font-size:20px;
+   width:440px;
+}

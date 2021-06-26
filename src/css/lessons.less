@@ -1,0 +1,41 @@
+section.lessons {
+  margin:80px 70px 0 70px;
+  padding:0;
+  position: static;
+  .item {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    height:600px;
+    &__info {
+      width:440px;
+      margin: auto 0;
+    }
+    &:nth-child(2n+1) {
+      flex-direction:row-reverse;
+    }
+    &__image {
+      &__photo1 {
+        width: 523px;
+        height: 548px;
+        .background(100%,none,'../images/desktop/photo1.png',none);
+      }
+      &__photo2 {
+        width: 462px;
+        height: 650px;
+        .background(100%,none,'../images/desktop/photo2.png',none);
+      }
+      &__photo3 {
+        width: 523px;
+        height: 548px;
+        .background(100%,none,'../images/desktop/photo3.png',none);
+      }
+      &__photo4 {
+        width: 671px;
+        height: 482px;
+        .background(100%,none,'../images/desktop/photo4.png',none);
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.about {
+  height: 700px;
+  position: relative;
+  margin:80px 70px 0 70px;
+  margin-top: 100px;
+  &__link {
+    color:@about__link;
+    text-decoration:none;
+    text-transform:uppercase;
+    & span {
+      padding-left:15px;
+    }
+  }
+  &__circle1{
+    .position(absolute,left,45%,7%,620px,621px,10);
+    .background(contain,none,'../images/desktop/about1.png',50%);
+  }
+  &__circle2{
+    .position(absolute,left,35%,56%,318px,318px,20);
+    .background(none,none,'../images/desktop/about2.png',50%);
+  }
+}
