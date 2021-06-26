@@ -1,0 +1,59 @@
+section.orders {
+  margin:80px 70px 0 70px;
+  padding:0;
+  position: static;
+  .order {
+    display:flex;
+    justify-content:space-around;
+    width:800px;
+    padding:0;
+    &__item {
+      width:250px;
+      margin-right:10px;
+      &:first-child{
+        background-color:@orders__item__background1;
+      }
+      &:nth-child(2){
+        background-color:@orders__item__background2;
+      }
+      &:last-child{
+        background-color:@orders__item__background3;
+      }
+
+    }
+    &__numbers {
+      position:relative;
+      font-size:120px;
+      z-index:10;
+      color:@orders__numbers;
+      margin-left:80px;
+    }
+    .info{
+      position:relative;
+      z-index:20;
+      font-size:25px;
+      color:@orders__info;
+      margin-top:-90px;
+      margin-left:20px;
+      &__header{
+        text-transform:lowercase;
+        margin-bottom:0;
+        font-size:17px;
+      }
+      &__subheader {
+        margin-top:-5px;
+        text-transform:uppercase;
+        font-size:25px;
+      }
+      &__price{
+        margin-top:-20px;
+        font-weight:600;
+      }
+      &__button {
+        .button(20px, 5px 30px, @orders__button);
+        margin-top:30px;
+        margin-bottom:50px;
+      }
+    }
+  }
+}

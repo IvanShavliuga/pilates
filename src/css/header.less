@@ -1,0 +1,52 @@
+.header{
+  margin:0;
+  position:relative;
+  height:650px;
+  .logo{
+    top:0;
+    left: 0;
+    background-color:@header__logo__background;
+    color:@header__logo__color;
+    border-radius: 0 0 100% 0;
+    border-bottom: 34px solid @header__logo__background;
+    padding: 50px 100px;
+    margin-right: 25%;
+    &__info{
+      text-align:left;
+      margin-top: -55px;
+      margin-left: -25px;
+      width: 550px;
+    }
+    &__title{
+      font-size:55px;
+      text-transform:uppercase;
+      font-weight:100;
+      margin-bottom: 0;
+    }
+    &__desc {
+      font-size:20px;
+      margin-top:0;
+    }
+    &__button {
+      .button(27px, 10px 30px, @header__logo__button);
+      margin-top:0;
+    }
+  }
+  &__photo{
+    .position(absolute,right,0,40px,650px,650px,20);
+    .background(cover,none,'../images/photo1.png',none);
+  }
+  &__phone{
+    font-weight:bold;
+    .position(absolute,right,180px,30px,160px,40px,20);
+    color:@header__phone__color;
+  }
+  &__circle1{
+    .position(absolute,right,30px,135px,80px,80px,10);
+    .background(none,@header__circle1,none,50%);
+  }
+  &__circle2{
+    .position(absolute,right,160px,5px,40px,40px,10);
+    .background(none,@header__circle2,none,50%);
+  }
+}
