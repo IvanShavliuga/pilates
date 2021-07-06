@@ -5,28 +5,44 @@ section.orders {
   .order {
     display:flex;
     justify-content:space-around;
-    width:800px;
+    width: 100%;
     padding:0;
     &__item {
-      width:250px;
+      width: 30%;
+      height: 591px;
       margin-right:10px;
       &:first-child{
-        background-color:@orders__item__background1;
+        background-color: rgba(@orders__item__background,0.5);
+        p.order__numbers {
+          background-image: url('../images/desktop/01.png');
+        }
       }
       &:nth-child(2){
-        background-color:@orders__item__background2;
+        background-color: rgba(@orders__item__background,0.7);
+        p.order__numbers {
+          background-image: url('../images/desktop/02.png');
+        }
       }
       &:last-child{
-        background-color:@orders__item__background3;
+        background-color: rgba(@orders__item__background,0.9);
+        p.order__numbers {
+          background-image: url('../images/desktop/03.png');
+        }
       }
 
     }
     &__numbers {
       position:relative;
-      font-size:120px;
       z-index:10;
-      color:@orders__numbers;
+      color: @orders__numbers;
       margin-left:80px;
+      margin-top: 20px;
+      margin-bottom: 0;
+      font-size: 209px;
+      line-height: 209px;
+      letter-spacing: -2px;
+      height: 209px;
+      background-repeat: no-repeat no-repeat;
     }
     .info{
       position:relative;
