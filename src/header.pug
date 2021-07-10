@@ -1,10 +1,17 @@
 header.header
   div.logo(style="background-image:url(header.svg)") &nbsp;
-    div.logo__info 
-      h1.logo__title Студия пилатоса
-      p.logo__desc Твое здоровое тело через 30 занятий
-      button.logo__button Смотреть расписание 
-  div.header__photo &nbsp;
-  .header__phone +7 945 555 44 33
-  .header__circle1 &nbsp;
-  .header__circle2 &nbsp;
+    .wrapper.header__wrapper
+      div.header__menu
+        div.header__menu-item
+          include /images/logo.svg
+        div.header__menu-item
+          include /images/burger.svg
+        div.header__menu-item
+          .header__menu-phone +7 945 555 44 33
+      div.logo__info 
+        h1.logo__title Студия пилатоса
+        p.logo__desc Твое здоровое тело через 30 занятий
+        button.logo__button Смотреть расписание
+    div.header__photo &nbsp;
+    .header__circle1 &nbsp;
+    .header__circle2 &nbsp;
