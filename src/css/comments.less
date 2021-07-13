@@ -18,9 +18,42 @@
       top:40px;
       right:-45px;
     } */
+    &__info {
+      display: inline-flex;
+      justify-content: flex-start;
+      width: 124px;
+      height: 30px;
+      margin: 0;
+      padding: 0;
+      svg {
+        margin: auto 9px;
+        max-width: 17px;
+        min-width: 17px;
+        max-height: 17px;
+        min-height: 17px;
+      }
+    }
+    &__age {
+      font-size: 18px;
+      line-height: 20px;
+      color: #000000;
+      font-weight: 400;
+      margin: auto 0;
+      padding: 0;
+      font-family: "Roboto";
+      width: 100px;
+    }
+    &__dotts {
+      position: absolute;
+      top: -47px;
+      right: 80px;
+      width: 103px;
+      height: 132px;
+      background-image: url('../images/dotts.png');
+    }
     &__item {
-      border: 1px solid @comments__border;
-      width:630px;
+      position: relative;
+      width:65%;
       margin: auto;
       margin-bottom:10px;
       padding:10px 10px;
@@ -41,12 +74,20 @@
       .background(contain,none,'../images/test-1.png',50%);
     }
     &__text{
-      width:600px;
-      text-align:justify;
+      margin: 0;
+      width: 600px;
+      height: 111px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      font-weight: 300;
+      font-family: "S FU IText";
     }
     &__name {
-      text-align:left;
-      font-size:30px;
+      font-size: 28px;
+      color: #000000;
+      font-weight: 400;
+      font-family: "Roboto";
       margin:5px;
     }
   }
