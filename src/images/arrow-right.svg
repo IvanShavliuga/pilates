@@ -1,10 +1,9 @@
 <svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 36" width="20" height="36">
-	<title>Экран 5</title>
 	<style>
 		tspan { white-space:pre }
-		.shp0 { fill: none;stroke: #c8d4ac;stroke-width: 2 } 
+		.shp0 { fill: none;stroke: #c8d4ac;stroke-width: 2 }
 	</style>
-	<g id="Экран 5">
-		<path id="Стрелка правая" class="shp0" d="M0.39 0.01L19.41 17.99L0.39 35.98" />
+	<g>
+		<path class="shp0" d="M0.39 0.01L19.41 17.99L0.39 35.98" />
 	</g>
 </svg>
