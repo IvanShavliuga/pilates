@@ -1,0 +1,7 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 16" width="23" height="16">
+	<g stroke="white" stroke-width="1">
+		<line x1="2" y1="0" x2="21" y2="0"/>
+		<line x1="2" y1="6" x2="21" y2="6"/>
+		<line x1="2" y1="11" x2="21" y2="11"/>
+	</g>
+</svg>
