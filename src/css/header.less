@@ -36,23 +36,107 @@
     }
   }
   &__photo{
-    .position(absolute,right,0,40px,660px,739px,20);
+    .position(absolute,right,0,40px,660px,739px,10);
     .background(cover,none,'../images/desktop/header2.png',none);
   }
   &__phone{
     font-weight:bold;
-    .position(absolute,right,180px,30px,160px,40px,20);
+    .position(absolute,right,180px,30px,160px,40px,10);
     color:@header__phone__color;
   }
   &__menu {
     width: 90vw;
-    margin: 15px auto;
+    margin: -5px auto;
     display: flex;
     justify-content: space-between;
+    &-item {
+      position: relative;
+    }
     &-phone {
       color: black;
       font-weight:bold;
       color:@header__phone__color;
+    }
+    #burger {
+      display: none;
+    }
+    #burger + label {
+      svg g#brgimgopen {
+        display:block;
+      }
+      svg g#brgimgclose {
+        display:none;
+      }
+    }
+    #burger:checked {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+      & ~ div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    #burger:checked + label {
+      svg g#brgimgopen {
+        display:none;
+      }
+      svg g#brgimgclose {
+        display:block;
+      }
+      svg {
+        position: absolute;
+        right: 65px;
+        top: 15px;
+      }
+    }
+    &-burger {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      z-index: 100;
+    }
+    &-open {
+      position: relative;
+      z-index: 30;
+      margin-top: -40px;
+      margin-left: -120px;
+      display: none;
+      background-color: @header__logo__background;
+      width: 100vw;
+      height: 100vh;
+    }
+    &-nav {
+      width: 500px;
+      height: auto;
+    }
+    &-link {
+      position: relative;
+      display: block;
+      font-size: 38px;
+      line-height: 50px;
+      font-weight: 700;
+      font-family: "Roboto";
+      margin-bottom: 20px;
+    }
+    &-active {
+      &:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: -35px;
+        height: 10px;
+        width: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+      }
     }
   }
   &__circle1{

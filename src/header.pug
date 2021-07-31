@@ -5,7 +5,16 @@ header.header
         div.header__menu-item
           include /images/logo.svg
         div.header__menu-item
-          include /images/burger.svg
+          input#burger.header__menu-toggle(type="checkbox")
+          label.header__menu-burger(for="burger")
+            include /images/burger.svg
+          .header__menu-open
+            nav.header__menu-nav
+              a.header__menu-link.header__menu-active о пилатосе
+              a.header__menu-link расписание и стоимость
+              a.header__menu-link как проходят занятия
+              a.header__menu-link отзывы
+              a.header__menu-link контакты
         div.header__menu-item
           .header__menu-phone +7 945 555 44 33
       div.logo__info 
