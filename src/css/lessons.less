@@ -1,7 +1,7 @@
 section.lessons {
-  margin:80px 70px 0 70px;
+  /* margin:80px 70px 0 70px;
   padding:0;
-  position: static;
+  position: static; */
   .item {
     display:flex;
     flex-direction:row;
@@ -10,13 +10,16 @@ section.lessons {
     height:600px;
     &__info {
       width: 351px;
-      height: 70px;
+      height: auto;
       font-size: 16px;
       line-height: 24px;
       color: #242424;
       font-weight: 300;
       font-family: "S FU IText";
       margin: auto 0;
+      &__desc {
+        width: 351px;
+      }
     }
     &:nth-child(2n+1) {
       flex-direction:row-reverse;
