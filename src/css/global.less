@@ -1,24 +1,32 @@
 html,body{
   background-color: @body__background;
-  padding:0;
-  margin:0;
+  padding: 0;
+  margin: 0;
 }
 .container {
   margin: 0;
   background-color: @body__container;
-  width: 100%;
   position: static;
-  padding:0;
+  padding: 0;
 }
 .wrapper {
   margin: 10px auto;
-  width: 95%;
+  width: 85%;
   position: static;
+}
+section {
+  margin-top: 80px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 70px;
+  /* width: 100vw; */
+  padding:0;
+  position: static;
+  /* border: 1px solid red; */
 }
 section h2 {
   position: relative;
   margin-left: 35px;
-  width:90%;
   font-size:30px;
   font-weight:bold;
   &::after {
@@ -30,8 +38,4 @@ section h2 {
     top:15px;
     left:-35px;
   }
-}
-p{
-   font-size:20px;
-   width:440px;
 }
