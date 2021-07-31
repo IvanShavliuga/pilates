@@ -10,10 +10,14 @@
   .logo{
     top:0;
     left: 0;
-    .background(cover,none,'../images/desktop/header.svg',none);
+    .background(cover,none,'../images/desktop/header.png',none);
     color:@header__logo__color;
     width: 776px;
     height: 789px;
+    @media (max-width: 1207px) {
+      width: 676px;
+      height: 689px;
+    }
     &__info{
       text-align:left;
       margin: 120px 0 120px 0;
@@ -38,6 +42,9 @@
   &__photo{
     .position(absolute,right,0,40px,660px,739px,10);
     .background(cover,none,'../images/desktop/header2.png',none);
+    @media (max-width: 1207px) {
+      .position(absolute,right,0,160px,560px,639px,10);
+    }
   }
   &__phone{
     font-weight:bold;

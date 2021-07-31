@@ -18,7 +18,8 @@ section.lessons {
       font-family: "S FU IText";
       margin: auto 0;
       &__desc {
-        width: 351px;
+        width: 400px;
+        font-size:20px;
       }
     }
     &:nth-child(2n+1) {
@@ -28,22 +29,27 @@ section.lessons {
       &__photo1 {
         width: 523px;
         height: 548px;
-        .background(100%,none,'../images/desktop/photo1.png',none);
+        .background(contain,none,'../images/desktop/photo1.png',none);
       }
       &__photo2 {
         width: 462px;
         height: 650px;
-        .background(100%,none,'../images/desktop/photo2.png',none);
+        .background(contain,none,'../images/desktop/photo2.png',none);
       }
       &__photo3 {
         width: 523px;
         height: 548px;
-        .background(100%,none,'../images/desktop/photo3.png',none);
+        .background(contain,none,'../images/desktop/photo3.png',none);
       }
       &__photo4 {
         width: 671px;
         height: 482px;
-        .background(100%,none,'../images/desktop/photo4.png',none);
+        .background(contain,none,'../images/desktop/photo4.png',none);
+        @media (max-width: 1207px) {
+          width: 571px;
+          height: 382px;
+          background-size: contain;
+        }
       }
     }
   }
