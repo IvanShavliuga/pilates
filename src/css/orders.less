@@ -11,6 +11,10 @@ section.orders {
       width: 30%;
       height: 591px;
       margin-right:10px;
+      @media (max-width: 1170px) {
+        margin-right: 10px;
+        width: 31%;
+      }
       &:first-child{
         background-color: rgba(@orders__item__background,0.5);
         p.order__numbers {
@@ -43,6 +47,13 @@ section.orders {
       letter-spacing: -2px;
       height: 209px;
       background-repeat: no-repeat no-repeat;
+      @media (max-width: 1290px) {
+        margin-left: 40px;
+      }
+      @media (max-width: 1170px) {
+        margin-left: 10px;
+        transform: scale(0.9);
+      }
     }
     .info{
       position:relative;
