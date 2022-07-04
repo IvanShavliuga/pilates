@@ -1,0 +1,108 @@
+.comments {
+  /* margin:-40px 70px 0 70px;
+  padding:0;
+  position: static; */
+  &__box {
+    display: flex;
+    position: relative;
+    width: 100%;
+    button {
+      border:none;
+      background-color:transparent;
+    }
+    &__info {
+      display: inline-flex;
+      justify-content: flex-start;
+      width: 124px;
+      height: 30px;
+      margin: 0;
+      padding: 0;
+      svg {
+        margin: auto 9px;
+        max-width: 17px;
+        min-width: 17px;
+        max-height: 17px;
+        min-height: 17px;
+      }
+    }
+    &__age {
+      font-size: 18px;
+      line-height: 20px;
+      color: #000000;
+      font-weight: 400;
+      margin: auto 0;
+      padding: 0;
+      font-family: "Roboto";
+      width: 100px;
+    }
+    &__dotts {
+      position: absolute;
+      top: -47px;
+      right: 80px;
+      width: 103px;
+      height: 132px;
+      background-image: url('../images/dotts.png');
+    }
+    &__item {
+      position: relative;
+      width:65%;
+      margin: auto;
+      margin-bottom:10px;
+      padding:10px 10px;
+    }
+    &__photo {
+      float:left;
+      margin: auto 20px;
+      width: 185px;
+      height: 178px;
+    }
+    #comimg1  {
+      .background(contain,none,'../images/test-3.png',50%);
+    }
+    #comimg2  {
+      .background(contain,none,'../images/test-2.png',50%);
+    }
+    #comimg3  {
+      .background(contain,none,'../images/test-1.png',50%);
+    }
+    &__text{
+      margin: 0;
+      width: 600px;
+      height: 111px;
+      font-size: 16px;
+      line-height: 24px;
+      color: #000000;
+      font-weight: 300;
+      font-family: "S FU IText";
+    }
+    &__name {
+      font-size: 28px;
+      color: #000000;
+      font-weight: 400;
+      font-family: "Roboto";
+      margin:5px;
+    }
+  }
+  &__pagination {
+    width:150px;
+    margin:0 auto;
+    display: flex;
+    position: relative;
+    div {
+      display:block;
+      background-color:transparent;
+      border-radius:50%;
+      border: none;
+      width: 10px;
+      height: 10px;
+      margin: 6px 10px;
+      background-color: #cdcdcd;
+    }
+    div.active {
+      width: 15px;
+      height: 15px;
+      margin: 3px 10px;
+      background-color:@comments__button;
+    }
+  }
+}
