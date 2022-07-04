@@ -1,27 +1,29 @@
-# Pilates studio
+# pilates
 
-
-# Getting started
-
-After checking out the repo, run:
-
+## Project setup
 ```
 npm install
-npm start
 ```
 
-open http://localhost:3000 
-
-`HtmlWebpackPlugin` in `webpack.config.js` like this:
-
+### Compiles and hot-reloads for development
 ```
-  plugins: [
-    new HtmlWebpackPlugin(
-      {
-        template: './index.ja.pug',
-        filename: 'index.html',
-        inject: false
-      }
-    )
-  ]
+npm run serve
 ```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your unit tests
+```
+npm run test:unit
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
