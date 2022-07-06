@@ -6,43 +6,7 @@
         <div class="wrapper header__wrapper">
           <div class="header__menu">
             <div class="header__menu-item">
-              <svg
-                version="1.2"
-                baseProfile="tiny-ps"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 63 53"
-                width="63"
-                height="53"
-              >
-                <title>Главный экран</title>
-                <defs>
-                  <image
-                    width="274"
-                    height="168"
-                    id="img1"
-                    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAkCAMAAADmUnmLAAAAAXNSR0IB2cksfwAAAYlQTFRFAAAA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////VkzjgAAAAIN0Uk5TAD1XGwG9/4+H49bNC9wCXrZ0KGGD9+2oSSMZmAkrBLEKbN7vrk0spGhKX+F8bR01WOWr0RFlBw2jJOuWqZzE6bjzjYkzGkgF/R99yi37A1IOgCJVOLoIs7Aqf1O8QRU/BjmTEzAWQzQpjGbPv4aEOooURSfLMkcuHkRppqEQkvE8lQ8Y5lJ4AAAB+UlEQVR4nJ2V6V/TQBCGtzU8SGkrCFWRcjRyCt7aeKJYpYq04n1hEcUTDxSLt6J/uZNG+fVI0k3my+68k2d3c8wbpRojEt3iomqG0QK0GmHxrdAWoz0kH4dEUm2jIxzeCdtl6KI7FJ5iR2Xcya4QdA90ObMEu4PjvZB2Zn2QDEr3w4AMgxmTPTAUFB+GEaUyo2PjYwl5/XsD4hOgkuZkZT4i/L5A9H44oDj4L0sfYnOuFYc5cjR1bDPNyv4BHr8Fx2mtEk7ASX38lOx2ukY5A5EAmzNVK8nxz+ri52C6/ks5Dzk9+oJsbtWLF0Wc0aHzcmFfg2pcEvmyBj4FnS5yB/IpxZvSOTDd9FmuzFEoNqHFJRh0K1yF4jwxf/qa0NddK2IAN9RNbvnAt+94d0cR235muOtJ3xOYCa/qfXig1DgLHt77UOAUJS9cHMQuLmI+citLW7Qt8djzbLZr8USpZXjaWDSgkIz62toz4ZeVKrm1z3NZ2iDqQyv1QviXlm3evfm60itW1Gt8aWm8N7LAW0vaovCutjLM6qJGU7yflAViH1ZhYa1aT4sjf2xKS+TL3ThhrlfdQgY+KeNzQ6u6Rbzny9fcN1nhe+TH/4f9E9p/wYYOXwmjPGQfYuX3UiXdiEnSMqeNS2TLs/ZvZN3J0n+yQWAn+q210l8CPTfC5erzAgAAAABJRU5ErkJggg=="
-                  ></image>
-                </defs>
-                <g id="Главный экран">
-                  <g id="Логотип">
-                    <use
-                      id="pilates-logo-for-panel"
-                      href="#img1"
-                      transform="matrix(0.255,0,0,0.256,-3,-3)"
-                    ></use>
-                    <text
-                      id="PILATES+"
-                      style="
-                        transform: matrix(0.941, 0, 0, 0.918, -0.008, 51.842);
-                      "
-                    >
-                      <tspan x="0" y="0" class="txt0" dx="0 1 1 1 1 1 1 1">
-                        PILATES+
-                      </tspan>
-                    </text>
-                  </g>
-                </g>
-              </svg>
+              <img src="../assets/images/logo.png"/>
             </div>
             <div class="header__menu-item">
               <input
@@ -50,7 +14,7 @@
                 id="burger"
                 type="checkbox"
               /><label class="header__menu-burger" for="burger"
-                ><svg
+                > <svg
                   version="1.2"
                   baseProfile="tiny-ps"
                   xmlns="http://www.w3.org/2000/svg"
@@ -58,18 +22,10 @@
                   width="27"
                   height="20"
                 >
-                  <g id="brgimgopen" stroke="white" stroke-width="3">
-                    <rect
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="12"
-                      fill="rgb(145,170,89)"
-                      stroke="rgb(145,170,89)"
-                    ></rect>
-                    <line x1="2" y1="1" x2="26" y2="1"></line>
-                    <line x1="2" y1="8.5" x2="26" y2="8.5"></line>
-                    <line x1="2" y1="16" x2="26" y2="16"></line>
+                  <g id="brgimgopen" stroke="white" stroke-width="1">
+                    <line x1="0" y1="1" x2="26" y2="1" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
+                    <line x1="0" y1="6" x2="26" y2="6" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
+                    <line x1="0" y1="11" x2="26" y2="11" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
                   </g>
                   <g id="brgimgclose" stroke="white" stroke-width="3">
                     <rect
