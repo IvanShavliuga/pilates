@@ -6,15 +6,15 @@
         <div class="wrapper header__wrapper">
           <div class="header__menu">
             <div class="header__menu-item">
-              <img src="../assets/images/logo.png"/>
+              <img src="../assets/images/logo.png" />
             </div>
             <div class="header__menu-item">
               <input
                 class="header__menu-toggle"
                 id="burger"
                 type="checkbox"
-              /><label class="header__menu-burger" for="burger"
-                > <svg
+              /><label class="header__menu-burger" for="burger">
+                <svg
                   version="1.2"
                   baseProfile="tiny-ps"
                   xmlns="http://www.w3.org/2000/svg"
@@ -23,9 +23,30 @@
                   height="20"
                 >
                   <g id="brgimgopen" stroke="white" stroke-width="1">
-                    <line x1="0" y1="1" x2="26" y2="1" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
-                    <line x1="0" y1="6" x2="26" y2="6" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
-                    <line x1="0" y1="11" x2="26" y2="11" fill="rgb(145,170,89)" stroke="rgb(145,170,89)"></line>
+                    <line
+                      x1="0"
+                      y1="1"
+                      x2="26"
+                      y2="1"
+                      fill="rgb(145,170,89)"
+                      stroke="rgb(145,170,89)"
+                    ></line>
+                    <line
+                      x1="0"
+                      y1="6"
+                      x2="26"
+                      y2="6"
+                      fill="rgb(145,170,89)"
+                      stroke="rgb(145,170,89)"
+                    ></line>
+                    <line
+                      x1="0"
+                      y1="11"
+                      x2="26"
+                      y2="11"
+                      fill="rgb(145,170,89)"
+                      stroke="rgb(145,170,89)"
+                    ></line>
                   </g>
                   <g id="brgimgclose" stroke="white" stroke-width="3">
                     <rect
@@ -63,9 +84,190 @@
         </div>
         <div class="header__photo">&nbsp;</div>
         <div class="header__circle1">&nbsp;</div>
-        <div class="header__circle2">&nbsp;</div>
+        <!-- <div class="header__circle2">&nbsp;</div> -->
       </div>
     </header>
+    <section class="about">
+      <div class="wrapper">
+        <h2 class="about__title">О пилатосе</h2>
+        <p class="about__desc">
+          Пилатес соединяет элементы растяжки с элементами силовой тренеровки
+        </p>
+        <p class="about__desc">
+          Комплекс упражений укрепляет мышцы пресса и спины, улучшает гибкость
+          мышц и связок, подвижность суставов и избавляет от дискомфорта в
+          позвоночнике
+        </p>
+        <p class="about__desc">
+          <a class="about__link" href="#">Подробнее <span>&gt; </span></a>
+        </p>
+      </div>
+      <div class="about__circle1">&nbsp;</div>
+      <div class="about__circle2">&nbsp;</div>
+    </section>
+    <section class="orders">
+      <div class="wrapper">
+        <h2>Расписание и стоимость</h2>
+        <div class="order">
+          <div class="order__item">
+            <p class="order__numbers"></p>
+            <div class="info">
+              <h3 class="info__header">уровень</h3>
+              <h4 class="info__subheader">новичок</h4>
+              <p class="info__price">150 руб./занятие</p>
+              <p class="info__desc">пн. 9:00 - 10:00</p>
+              <p class="info__desc">ср. 9:00 - 10:00</p>
+              <p class="info__desc">пт. 9:00 - 10:00</p>
+              <button class="info__button">Записаться</button>
+            </div>
+          </div>
+          <div class="order__item">
+            <p class="order__numbers"></p>
+            <div class="info">
+              <h3 class="info__header">уровень</h3>
+              <h4 class="info__subheader">профи</h4>
+              <p class="info__price">200 руб./занятие</p>
+              <p class="info__desc">пн. 14:00 - 15:30</p>
+              <p class="info__desc">ср. 14:00 - 15:30</p>
+              <p class="info__desc">пт. 14:00 - 15:30</p>
+              <button class="info__button">Записаться</button>
+            </div>
+          </div>
+          <div class="order__item">
+            <p class="order__numbers"></p>
+            <div class="info">
+              <h3 class="info__header">уровень</h3>
+              <h4 class="info__subheader">мастер</h4>
+              <p class="info__price">350 руб./занятие</p>
+              <p class="info__desc">пн. 20:00 - 21:30</p>
+              <p class="info__desc">ср. 20:00 - 21:30</p>
+              <p class="info__desc">пт. 20:00 - 21:30</p>
+              <button class="info__button">Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lessons">
+      <div class="wrapper">
+        <h2>Как проходят занятия</h2>
+        <div class="item">
+          <div class="item__info">
+            <h3 class="item__info__header">Дыхательные техники</h3>
+            <p class="item__info__desc">
+              Специальные дыхательные упраэнения помогут сконцентрировать
+              внимание и сфокусировать сохнание на мышцах тела
+            </p>
+          </div>
+          <div class="item__image"><div class="item__image__photo1"></div></div>
+        </div>
+        <div class="item">
+          <div class="item__info">
+            <h3 class="item__info__header">Разминка</h3>
+            <p class="item__info__desc">
+              Перед началом занятий разогрев тела, прорабатываем мышцы шеи,
+              спины, выполняем упражнения на баланс под спокойную музыку
+            </p>
+          </div>
+          <div class="item__image"><div class="item__image__photo2"></div></div>
+        </div>
+        <div class="item">
+          <div class="item__info">
+            <h3 class="item__info__header">Основной блок</h3>
+            <p class="item__info__desc">
+              Упражнения выполняются на коврике без специального оборудования
+              или с малым оборудованиемв медленном темпе
+            </p>
+          </div>
+          <div class="item__image"><div class="item__image__photo3"></div></div>
+        </div>
+        <div class="item">
+          <div class="item__info">
+            <h3 class="item__info__header">Стрейчинг</h3>
+            <p class="item__info__desc">
+              В конце выполняем специальные упражнения для развития гибкости,
+              снятия усталости, стресса и мышечного напряжения
+            </p>
+          </div>
+          <div class="item__image"><div class="item__image__photo4"></div></div>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="wrapper">
+        <h2>Отзывы</h2>
+        <div class="comments__box">
+          <button id="prev">
+            <img src="../assets/images/arrow-left.svg" />
+          </button>
+          <div class="comments__box__item">
+            <div class="comments__box__photo" id="comimg1"></div>
+            <h3 class="comments__box__name">Вероника Кулешова</h3>
+            <div class="comments__box__info">
+              <p class="comments__box__age">25 лет</p>
+              <img src="../assets/images/vk-gray.svg" />
+              <img src="../assets/images/instagram-gray.svg" />
+            </div>
+            <p class="comments__box__text">
+              Хожу на&nbsp;пилатес уже пять месяцев. После десяти занятий уже
+              увидела результат: тело поднялось, улучшилась осанка, появился
+              пресс. И&nbsp;самое главное, пропал сильный изгиб поясничного
+              отдела, который меня очень беспокоил.
+            </p>
+            <div class="comments__box__dotts">&nbsp;</div>
+          </div>
+          <button id="next">
+            <img src="../assets/images/arrow-right.svg" />
+          </button>
+        </div>
+        <div class="comments__bottombox">
+          <div class="comments__pagination">
+            <div
+              class="comments__pagination active"
+              id="com1"
+              title="comment 1"
+            >
+              &nbsp;
+            </div>
+            <div class="comments__pagination" id="com2" title="comment 2">
+              &nbsp;
+            </div>
+            <div class="comments__pagination" id="com3" title="comment 3">
+              &nbsp;
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <h2>Контакты</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3387.1816329715443!2d116.165484!3d-31.901661999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2a32c445d61f42d9%3A0x19f05198e82d3d32!2sLittle+Caesars+Pizzeria!5e0!3m2!1sen!2sin!4v1430720025747"
+        frameborder="0"
+        style="border: 0; width: 100%; height: 750px; margin: 0; padding: 0"
+      ></iframe>
+      <div class="map__contacts">
+        <h3 class="map__header">Адрес</h3>
+        <p class="map__desc">г Москва ул. Молодежная 22а</p>
+        <h3 class="map__header">Телефон:</h3>
+        <p class="map__desc">+7 495 555 55 55</p>
+        <h3 class="map__header">Email</h3>
+        <p class="map__header">pilates@test.ru</p>
+      </div>
+    </section>
+    <div class="footer">
+      <div class="footer__flex">
+        <p class="footer__flex-text">Pilates plus 2017 ©</p>
+        <p class="footer__flex-logo">
+          <img src="../assets/images/logo.png" />
+        </p>
+        <p class="footer__flex-social">
+          <img src="../assets/images/vk.svg" />
+          <img src="../assets/images/facebook.svg" />
+              <img src="../assets/images/instagram.svg" />
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -82,174 +284,5 @@ export default {
 </script>
 
 <style lang="less" scoped>
-@import "../assets/styles/vars.less";
-@import "../assets/styles/mixins.less";
-@import "../assets/styles/global.less";
-.header {
-  margin: 0;
-  height: 800px;
-  &__wrapper {
-    position: relative;
-    width: 90vw !important;
-    padding: 15px !important;
-    margin: 15px 5% !important;
-  }
-  .logo {
-    margin-top: -10px;
-    .background(cover,none,"../images/desktop/header.png",none);
-    color: @header__logo__color;
-    width: 676px;
-    height: 689px;
-    @media (max-width: 1080px) {
-      width: 606px;
-      height: 609px;
-    }
-    &__info {
-      text-align: left;
-      margin: 120px 0 120px 20px;
-      width: 350px;
-      height: 200px;
-    }
-    &__title {
-      font-size: 55px;
-      text-transform: uppercase;
-      font-weight: 100;
-      margin-bottom: 0;
-    }
-    &__desc {
-      font-size: 20px;
-      margin-top: 0;
-    }
-    &__button {
-      .button(27px, 10px 30px, @header__logo__button);
-      margin-top: 20px;
-    }
-  }
-  &__photo {
-    .position(absolute,right,0,40px,660px,739px,10);
-    .background(cover,none,"../images/desktop/header2.png",none);
-    @media (max-width: 1207px) {
-      .position(absolute,right,0,160px,560px,639px,10);
-    }
-  }
-  &__phone {
-    font-weight: bold;
-    .position(absolute,right,180px,30px,160px,40px,10);
-    color: @header__phone__color;
-  }
-  &__menu {
-    width: 85vw;
-    margin: -5px auto;
-    display: flex;
-    justify-content: space-between;
-    &-item {
-      position: relative;
-    }
-    &-phone {
-      color: black;
-      font-weight: bold;
-      color: @header__phone__color;
-    }
-    #burger {
-      display: none;
-    }
-    #burger + label {
-      svg g#brgimgopen {
-        display: block;
-      }
-      svg g#brgimgclose {
-        display: none;
-      }
-    }
-    #burger:checked {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: 100;
-      & ~ div {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-    }
-    #burger:checked + label {
-      svg g#brgimgopen {
-        display: none;
-      }
-      svg g#brgimgclose {
-        display: block;
-      }
-      svg {
-        position: absolute;
-        right: 65px;
-        top: 15px;
-      }
-    }
-    &-burger {
-      position: absolute;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      z-index: 100;
-    }
-    &-open {
-      position: relative;
-      z-index: 30;
-      margin-top: -40px;
-      margin-left: -120px;
-      display: none;
-      background-color: @header__logo__background;
-      width: 100vw;
-      height: 100vh;
-    }
-    &-nav {
-      width: 500px;
-      height: auto;
-    }
-    &-link {
-      position: relative;
-      display: block;
-      font-size: 38px;
-      line-height: 50px;
-      font-weight: 700;
-      font-family: "Roboto";
-      margin-bottom: 20px;
-    }
-    &-active {
-      &:after {
-        content: " ";
-        display: block;
-        position: absolute;
-        top: 25px;
-        left: -35px;
-        height: 10px;
-        width: 10px;
-        border-radius: 10px;
-        background-color: #fff;
-      }
-    }
-  }
-  &__circle1 {
-    .position(absolute,right,30px,135px,80px,80px,10);
-    .background(none,@header__circle1,none,50%);
-  }
-  &__circle2 {
-    .position(absolute,right,160px,5px,40px,40px,10);
-    .background(none,@header__circle2,none,50%);
-  }
-}
-
-tspan {
-  white-space: pre;
-}
-.txt0 {
-  font-size: 13px;
-  line-height: 24px;
-  fill: #fefefe;
-  font-weight: 300;
-  font-family: "S FU IText";
-}
+@import "../assets/styles/style.less";
 </style>
