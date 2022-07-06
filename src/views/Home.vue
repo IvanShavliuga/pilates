@@ -1,92 +1,6 @@
 <template>
   <div class="container">
-    <header class="header">
-      <div class="logo">
-        &nbsp;
-        <div class="wrapper header__wrapper">
-          <div class="header__menu">
-            <div class="header__menu-item">
-              <img src="../assets/images/logo.png" />
-            </div>
-            <div class="header__menu-item">
-              <input
-                class="header__menu-toggle"
-                id="burger"
-                type="checkbox"
-              /><label class="header__menu-burger" for="burger">
-                <svg
-                  version="1.2"
-                  baseProfile="tiny-ps"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 27 20"
-                  width="27"
-                  height="20"
-                >
-                  <g id="brgimgopen" stroke="white" stroke-width="1">
-                    <line
-                      x1="0"
-                      y1="1"
-                      x2="26"
-                      y2="1"
-                      fill="rgb(145,170,89)"
-                      stroke="rgb(145,170,89)"
-                    ></line>
-                    <line
-                      x1="0"
-                      y1="6"
-                      x2="26"
-                      y2="6"
-                      fill="rgb(145,170,89)"
-                      stroke="rgb(145,170,89)"
-                    ></line>
-                    <line
-                      x1="0"
-                      y1="11"
-                      x2="26"
-                      y2="11"
-                      fill="rgb(145,170,89)"
-                      stroke="rgb(145,170,89)"
-                    ></line>
-                  </g>
-                  <g id="brgimgclose" stroke="white" stroke-width="3">
-                    <rect
-                      x="2"
-                      y="2"
-                      width="21"
-                      height="12"
-                      fill="rgb(145,170,89)"
-                      stroke="rgb(145,170,89)"
-                    ></rect>
-                    <line x1="0" y1="0" x2="26" y2="16"></line>
-                    <line x1="0" y1="16" x2="26" y2="0"></line>
-                  </g>
-                </svg>
-              </label>
-              <div class="header__menu-open">
-                <nav class="header__menu-nav">
-                  <a class="header__menu-link header__menu-active">о пилатосе</a
-                  ><a class="header__menu-link">расписание и стоимость</a
-                  ><a class="header__menu-link">как проходят занятия</a
-                  ><a class="header__menu-link">отзывы</a
-                  ><a class="header__menu-link">контакты</a>
-                </nav>
-              </div>
-            </div>
-            <div class="header__menu-item">
-              <div class="header__menu-phone">+7 945 555 44 33</div>
-            </div>
-          </div>
-          <div class="logo__info">
-            <h1 class="logo__title">Студия пилатоса</h1>
-            <p class="logo__desc">Твое здоровое тело через 30 занятий</p>
-            <button class="logo__button">Смотреть расписание</button>
-          </div>
-        </div>
-        <div class="header__photo">&nbsp;</div>
-        <div class="header__circle1">&nbsp;</div>
-        <!-- <div class="header__circle2">&nbsp;</div> -->
-      </div>
-    </header>
+    <appHeader />
     <section class="about">
       <div class="wrapper">
         <h2 class="about__title">О пилатосе</h2>
@@ -264,7 +178,7 @@
         <p class="footer__flex-social">
           <img src="../assets/images/vk.svg" />
           <img src="../assets/images/facebook.svg" />
-              <img src="../assets/images/instagram.svg" />
+          <img src="../assets/images/instagram.svg" />
         </p>
       </div>
     </div>
@@ -273,16 +187,13 @@
 
 <script>
 // @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
+import appHeader from "@/components/header.vue";
 
 export default {
   name: "Home",
-  /* components: {
-    HelloWorld,
-  }, */
+  components: {
+    appHeader,
+  },
 };
 </script>
 
-<style lang="less" scoped>
-@import "../assets/styles/style.less";
-</style>
