@@ -169,31 +169,20 @@
         <p class="map__header">pilates@test.ru</p>
       </div>
     </section>
-    <div class="footer">
-      <div class="footer__flex">
-        <p class="footer__flex-text">Pilates plus 2017 ©</p>
-        <p class="footer__flex-logo">
-          <img src="../assets/images/logo.png" />
-        </p>
-        <p class="footer__flex-social">
-          <img src="../assets/images/vk.svg" />
-          <img src="../assets/images/facebook.svg" />
-          <img src="../assets/images/instagram.svg" />
-        </p>
-      </div>
-    </div>
+    <appFooter />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import appHeader from "@/components/header.vue";
+import appFooter from "@/components/footer.vue";
 
 export default {
   name: "Home",
   components: {
     appHeader,
+    appFooter,
   },
 };
 </script>
-
