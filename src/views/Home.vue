@@ -5,8 +5,8 @@
     <appOrders />
     <appLessons />
     <appComments />
-    <appFooter />
     <appContacts />
+    <appFooter />
   </div>
 </template>
 
